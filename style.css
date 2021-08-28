@@ -1,3 +1,123 @@
+/*this is css for the main page*/
+
 body {
-    background-color: blue;
+    background-color:wheat;
+    font-family:Helvetica;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
+
+#header {
+    background-color: white;
+    height: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    letter-spacing: 5px;
+
+}
+
+.header-name{
+    font-size: 22px;
+    color:hotpink;
+    text-decoration: overline;
+}
+
+.header-name:hover {
+    color: white;
+    word-spacing: 2px;
+}
+
+.header-about {
+    font-size: 25px;
+    display:inline-block;
+    float: right;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: hotpink;
+    text-decoration: overline;
+    
+}
+
+.header-about:hover {
+    color: white;
+    word-spacing: 2px;
+}
+
+
+#content{
+    padding: 50px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+
+#container1{
+    background-color: white;
+    display:flex;
+    color:hotpink;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+#footer{
+    background-color: hotpink;
+    padding: 50px;
+    display:black;
+
+}
+
+.column1 p a:visited{
+    color: hotpink;
+}
+
+.column1 p a:link{
+    color: hotpink;
+  
+}
+
+.column1 p a:hover{
+    color: lightpink;
+    text-decoration-style:dashed;
+    letter-spacing: 2px;
+    background-color: hotpink;
+    font-size: 20px;
+    
+}
+
+/*this is css for the about me page*/
+
+#about{
+    color: white;
+}
+
+#about h3{
+    color: pink;
+    border-style: double;
+    border-width: 2px;
+    border-color: pink;
+
+}
+
+#about h1{
+    text-align: center;
+}
+
+#about p{
+    text-align: right;
+}
+
+#about h4{
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: pink;
+}
+
